@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-head{
+    font-size: 70px;
+}
+.mt-4{
+    font-size: 18px;
+    color: rgb(112, 109, 109);
+}
+.ms{
+    font-size: 50px;
+}
+.bm{
+    border: 0;
+    margin-left: 20px;
+    background-color: white;
+}
+.icon-bar{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(190, 186, 186);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    
+}
+.wrap{
+    width: max-content;
+}
+.bar{
+    width: 20px;
+    border-top: 2px solid black;
+    margin-bottom: 5px;
+    transition: .3s;
+}
+.icon-bar:hover{
+    background-color: blue;
+}
+.icon-bar:hover .top{
+    transform:  rotate(45deg);
+    width: 10px;
+    margin-left: 11px;
+    margin-bottom: 1px;
+} 
+.icon-bar:hover .bottom{
+    transform:  rotate(-45deg);
+    width: 10px;
+    margin-left: 11px;
+} 
+
+.icon-bar:hover .middle{
+    margin-bottom: 1px;
+}
+.line{
+    height: 2px;
+    width: 60px;
+    background-color: blue;
+}
+.circle{
+    height: 70px;
+    width: 70px;
+    z-index: 100;
+    right: 10%;
+}
+.circle3{
+    height: 60px;
+    width: 60px;
+    z-index: 100;
+    right: 10%;
+}
+.circle2{
+    height: 30px;
+    width: 100px;
+    top: -8%;
+}
+.l-10{
+    left: 5%;
+}
+.card-body{
+    transition: .3s;
+}
+.card-body{
+    height: 200px;
+}
+.h-w:hover .card-body{
+    transform: translateY(-80px);
+    background-color: white;
+    z-index: 200;
+}
+.dn{
+    display: none;
+}
+.h-w:hover .dn{
+    display: block;
+}
+.card-title:hover{
+    color: blue;
+}
+.dot{
+    width: 10px;
+    height: 10px;
+}
+.row .card img{
+    transform: scale(1);
+    transition: .5s;
+}
+.row .card img:hover{
+    transform: scale(1.05);
+}

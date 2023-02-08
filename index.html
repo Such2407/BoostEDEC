@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boostrap</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+    <!-- My Extenal Css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Sub-Nav -->
+    <div class="container-fluid bg-dark w-100 h-20 text-white d-none d-md-block">
+        <div class="container py-2">
+            <div class="row">
+                <div>
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start">
+                            <a href="#" class="text-decoration-none text-white">
+                                <p class="d-inline">
+                                    <i class="fa-solid fa-envelope bg-dark text-white me-2"></i>
+                                     info@gaim.com
+                                </p>
+                            </a>
+                            <a href="#" class="text-decoration-none text-white ms-3">
+                                <p class="d-inline">
+                                        <i class="fa-solid fa-location-dot text-white me-2"></i>
+                                        Oakwood, Los Angeles, CA 1098
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <i class="fa-brands fa-facebook-f me-2"></i>
+                            <i class="fa-brands fa-twitter me-2"></i>
+                            <i class="fa-brands fa-linkedin-in me-2"></i>
+                            <i class="fa-brands fa-google"></i>
+                        </div>
+                    </div>
+                </div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-lg shadow-sm">
+        <div class="container d-flex align-items-center justify-content-between">
+            <a class="navbar-brand" href="#"><img src="/Assets/img/logo.png" alt=""></a>
+                <div class="offcanvas offcanvas-start w-50" tabindex="-1" id="offcanvasExample"  aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasExampleLabel"><img src="/Assets/img/logo.png" alt=""></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <ul class="navbar-nav mx-3 mx-lg-auto mb-2 mb-lg-0 text-dark">
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" aria-current="page" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="#">COURSES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="#">TEACHERS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="#">PRICING</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="#">TESTIMONIALS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="#">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="#">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <div class="d-flex align-items-center">
+                    <div class="bg-primary border border-0 py-2 px-3">
+                        <a class="text-white text-decoration-none" href="#">Get A Quote</a>
+                </div>
+                <button class="navbar-toggler bm" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    <div class="icon-bar">
+                        <div class="wrap"> 
+                        <div class="bar top"></div>
+                        <div class="bar middle"></div>
+                        <div class="bar bottom"></div>
+                        </div>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </nav>
+ 
+    <!-- Header -->
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="owl-carousel banner-carousel">
+                        <div class="item">
+                            <img src="/Assets/img/home-1/700x800-0.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="/Assets/img/home-1/700x800-1.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="/Assets/img/home-1/700x800.jpg" class="w-100" alt="">
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 my-5">
+                    <div class="ms-5 mt-5">
+                        <h4 class="mt-4">Edec-Pro is the best education theme</h4>
+                        <h1 class="header-head fw-bold">Perfect Place For Your Education</h1>
+                        <div class="mt-4">
+                            Education is the process of facilitating learning, or the
+                            acquisition of knowledge, skills, values, morals, beliefs
+                        </div>
+                        <button class="bg-primary border border-0 py-3 px-4 mt-4 fw-bold"><a class="text-white text-decoration-none" href="#">GET STARTED</a></button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- About US -->
+
+    <section class="my-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12 my-5">
+                    <img src="/Assets/img/home-1/570x750.jpg" class="w-100" alt="">
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 my-5">
+                    <div class="ms-5 mt-5">
+                        <div class="text-primary">About us</div>
+                        <div class="ms fw-bold">online courses <span class="text-primary">from <br> the experts</span></div>
+                        <h1 class="mt-4 fs-3 fw-bold text-dark">
+                            Edec-Pro is the best education theme
+                            that is fully responsive, lightweight.
+                        </h1>
+                        <p class="mt-4">
+                            Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, morals, beliefs, and habits. Educational methods include teaching, training, storytelling, discussion and directed.
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-use">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-12 my-4">
+                    <div class="ms-5 mt-5">
+                        <div class="ms fw-bold">Why Us</div>
+                        <p class="mt-4">
+                            There are movements for education reforms, such as for improving quality and efficiency of education towards applicable relevance in the students' lives and efficient problem solving in modern or future society at large or for evidence-based education methodologies.
+                        </p>
+                        <div class="w-50 mt-4">
+                            <div class=" d-flex align-content-center">
+                                <i class="fa-solid fa-circle-check text-primary fs-1"></i>
+                                 <span class="m-2">1000 Online Course</span>
+                            </div>
+                        </div>
+                        <div class="w-50 mt-3">
+                            <div class=" d-flex align-content-center">
+                                <i class="fa-solid fa-circle-check text-primary fs-1"></i>
+                                 <span class="m-2">Expert Instruction</span>
+                            </div>
+                        </div>
+                        <div class="w-50 mt-3">
+                            <div class=" d-flex align-content-center">
+                                <i class="fa-solid fa-circle-check text-primary fs-1"></i>
+                                 <span class="m-2">Lifetime Access</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12 my-5">
+                    <div class="ms-5 mt-5 bg-primary text-white p-4 pb-5">
+                        <div class="d-flex align-items-center ms-2 border-bottom">
+                            <div class="col-md-2">
+                                <i class="fa-solid fa-chalkboard-user text-white fs-1"></i>
+                            </div>
+                            <div class="col-md-12">
+                                <h1>1000<sup>+</sup></h1>
+                                <p class="mb-3">Courses Available</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center ms-2 border-bottom">
+                            <div class="col-md-2">
+                                <i class="fa-regular fa-people-roof text-white fs-1"></i>
+                            </div>
+                            <div class="col-md-12">
+                                <h1>1000<sup>+</sup></h1>
+                                <p class="mb-3">Courses Available</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center ms-2 border-bottom">
+                            <div class="col-md-2">
+                                <i class="fa-solid fa-people-group text-white fs-1"></i>
+                            </div>
+                            <div class="col-md-12">
+                                <h1>1000<sup>+</sup></h1>
+                                <p class="mb-3">Courses Available</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container">
+            <div class="mt-5">
+                <div class="ms fw-bold text-center">Our Courses</div>
+            </div>
+            <div class="container my-3">
+                <div class=" d-flex align-content-center justify-content-center">
+                    <div class="line my-auto"></div>
+                    <div><i class="fa-solid fa-book-open fs-1 text-primary mx-4"></i></div>
+                    <div class="line my-auto"></div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="card overflow-hidden position-relative">
+                        <div class="circle rounded-circle text-primary fs-5 fw-bold text-center py-3 mt-4 position-absolute bg-white">Free</div>
+                        <img src="Assets/img/home-1/400x400.jpg" class="card-img-top" alt="...">
+                        <div class="card-body position-relative">
+                            <div class="circle2 d-flex align-items-center justify-content-center bg-primary rounded-pill py-3 position-absolute shadow">
+                                <div class="dot rounded-circle me-1 bg-white"></div>
+                                <div class="circle1-text text-white fw-bold">Biology</div>
+                            </div>
+                          <h3 class="card-title mt-3">Master Your Brain: Personal Development</h3>
+                          <p class="card-text fs-5 fw-bold text-secondary">by Chris Moore.</p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                     </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="card overflow-hidden position-relative">
+                        <div class="bg-image hover-zoom">
+                            <div class="circle rounded-circle text-primary fs-5 fw-bold text-center py-3 mt-4 position-absolute bg-white">$300</div>
+                            <img src="Assets/img/home-1/400x400-0.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body position-relative">
+                            <div class="circle2 d-flex align-items-center justify-content-center bg-primary rounded-pill py-3 position-absolute shadow">
+                                <div class="dot rounded-circle me-1 bg-white"></div>
+                                <div class="circle1-text text-white fw-bold">Physics</div>
+                            </div>
+                            <h3 class="card-title mt-3">Master The Physics: Know The Universe</h3>
+                            <p class="card-text fs-5 fw-bold text-secondary">by Chris Moore.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                     </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="card overflow-hidden position-relative">
+                        <div class="circle rounded-circle text-primary fs-5 fw-bold text-center py-3 mt-4 position-absolute bg-white">$400</div>
+                        <img src="Assets/img/home-1/400x400-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body position-relative">
+                            <div class="circle2 d-flex align-items-center justify-content-center bg-primary rounded-pill py-3 position-absolute shadow">
+                                <div class="dot rounded-circle me-1 bg-white"></div>
+                                <div class="circle1-text text-white fw-bold">Math</div>
+                            </div>
+                            <h3 class="card-title mt-3">Master The Math: Know About The Algebra</h3>
+                            <p class="card-text fs-5 fw-bold text-secondary">by Chris Moore.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="mt-5">
+                <div class="ms fw-bold text-center">Our Courses</div>
+            </div>
+            <div class="container my-3">
+                <div class=" d-flex align-content-center justify-content-center">
+                    <div class="line my-auto"></div>
+                    <div><i class="fa-solid fa-book-open fs-1 text-primary mx-4"></i></div>
+                    <div class="line my-auto"></div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12 h-w">
+                    <div class="card-height">
+                        <div class="card overflow-hidden position-relative">
+                            <div class="circle3 rounded-circle text-primary fs-5 fw-bold text-center py-3 mt-4 position-absolute bg-white l-10">
+                                <i class="fa-regular fa-heart fs-3"></i>
+                            </div>
+                            <img src="Assets/img/home-1/348x350.jpg" class="card-img-top" alt="...">
+                            <div class="card-body py-3">
+                                <h3 class="card-title mt-3">Tom Cook</h3>
+                                <p class="card-text fs-5 fw-bold text-secondary">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <span class="ms-3"><small>(38)</small></span>
+                                </p>
+                                <p class="fs-5 text-secondary">Founder</p>
+                                <p class="card-text">
+                                    <i class="fa-solid fa-location-dot fs-4"></i>
+                                    <span class="fs-5 text-secondary">Hong Kong</span>
+                                </p>
+                              <div class="dn">
+                                <div class="view-more bg-primary py-3 fw-bold text-white d-flex justify-content-center">View More</div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12 h-w">
+                    <div class="card-height">
+                        <div class="card overflow-hidden position-relative">
+                            <div class="circle3 rounded-circle text-primary fs-5 fw-bold text-center py-3 mt-4 position-absolute bg-white l-10">
+                                <i class="fa-regular fa-heart fs-3"></i>
+                            </div>
+                            <img src="Assets/img/home-1/348x350-0.jpg" class="card-img-top" alt="...">
+                            <div class="card-body py-3">
+                                <h3 class="card-title mt-3">Tom Cook</h3>
+                                <p class="card-text fs-5 fw-bold text-secondary">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <span class="ms-3"><small>(38)</small></span>
+                                </p>
+                                <p class="fs-5 text-secondary">English Teacher</p>
+                                <p class="card-text">
+                                    <i class="fa-solid fa-location-dot fs-4"></i>
+                                    <span class="fs-5 text-secondary">London</span>
+                                </p>
+                              <div class="dn">
+                                <div class="view-more bg-primary py-3 fw-bold text-white d-flex justify-content-center">View More</div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12 h-w">
+                    <div class="card-height">
+                        <div class="card overflow-hidden position-relative">
+                            <div class="circle3 rounded-circle text-primary fs-5 fw-bold text-center py-3 mt-4 position-absolute bg-white l-10">
+                                <i class="fa-regular fa-heart fs-3"></i>
+                            </div>
+                            <img src="Assets/img/home-1/348x350-1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body py-3">
+                                <h3 class="card-title mt-3">Tom Cook</h3>
+                                <p class="card-text fs-5 fw-bold text-secondary">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <span class="ms-3"><small>(38)</small></span>
+                                </p>
+                                <p class="fs-5 text-secondary">Math Teacher</p>
+                                <p class="card-text">
+                                    <i class="fa-solid fa-location-dot fs-4"></i>
+                                    <span class="fs-5 text-secondary">Hong Kong</span>
+                                </p>
+                              <div class="dn">
+                                <div class="view-more bg-primary py-3 fw-bold text-white d-flex justify-content-center">View More</div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="mt-5">
+                <div class="ms fw-bold text-center">Our Courses</div>
+            </div>
+            <div class="container my-3">
+                <div class=" d-flex align-content-center justify-content-center">
+                    <div class="line my-auto"></div>
+                    <div><i class="fa-solid fa-book-open fs-1 text-primary mx-4"></i></div>
+                    <div class="line my-auto"></div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="card overflow-hidden">
+                        <img src="Assets/img/home-1/400x400-0.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                     </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="card overflow-hidden">
+                        <div class="bg-image hover-zoom">
+                            <img src="Assets/img/home-1/400x400.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                     </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="card overflow-hidden">
+                        <img src="Assets/img/home-1/400x400-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="mt-5">
+                <div class="ms fw-bold text-center">Our Courses</div>
+            </div>
+            <div class="container my-3">
+                <div class=" d-flex align-content-center justify-content-center">
+                    <div class="line my-auto"></div>
+                    <div><i class="fa-solid fa-book-open fs-1 text-primary mx-4"></i></div>
+                    <div class="line my-auto"></div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="card overflow-hidden">
+                        <img src="Assets/img/home-1/400x400-0.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                     </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="card overflow-hidden">
+                        <div class="bg-image hover-zoom">
+                            <img src="Assets/img/home-1/400x400.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                     </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="card overflow-hidden">
+                        <img src="Assets/img/home-1/400x400-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <div class="">
+        <div class="owl-carousel banner-carousel">
+            <div class="item">
+                <img src="/Assets/img/home-1/700x800-0.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="/Assets/img/home-1/700x800-1.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="/Assets/img/home-1/700x800.jpg" alt="">
+            </div>
+          </div>
+    </div> -->
+    
+    <!-- Boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <!-- jquery library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- owl-carousel -->
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <!-- My extenal js -->
+    <script src="./index.js"></script>
+</body>
+</html>
